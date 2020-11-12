@@ -35,6 +35,85 @@
     .g{
         left: 82%;
     }
+    .p{ 
+        position: absolute;
+        top: -2%;
+        left: 41.5%;
+        height: 9px;
+        width: 4.5%;
+        z-index: 2000;
+        background-color: rgba(180, 226, 222, 0);
+    }
+    .p:hover{
+        background-color: rgba(169, 221, 217, 0.658);
+        cursor: pointer;
+    }
+    .q{ 
+        position: absolute;
+        top: -2%;
+        left: 48%;
+        height: 9px;
+        width: 4.5%;
+        z-index: 2000;
+        background-color: rgba(180, 226, 222, 0);
+    }
+    .q:hover{
+        background-color: rgba(189, 197, 196, 0.658);
+        cursor: pointer;
+    }
+    .r{ 
+        position: absolute;
+        top: -2%;
+        left: 55%;
+        height: 9px;
+        width: 9%;
+        z-index: 2000;
+        background-color: rgba(180, 226, 222, 0);
+    }
+    .r:hover{
+        background-color: rgba(189, 209, 180, 0.658);
+        cursor: pointer;
+    }
+    .s{ 
+        position: absolute;
+        top: -2%;
+        left: 67%;
+        height: 9px;
+        width: 4%;
+        z-index: 2000;
+        background-color: rgba(180, 226, 222, 0);
+    }
+    .s:hover{
+        background-color:rgba(237, 199, 252, 0.658);
+        cursor: pointer;
+    }
+    .t{ 
+        position: absolute;
+        top: -2%;
+        left: 74%;
+        height: 9px;
+        width: 3.5%;
+        z-index: 2000;
+        background-color: rgba(226, 219, 180, 0);
+    }
+    .t:hover{
+        background-color: rgba(241, 252, 141, 0.658);
+        cursor: pointer;
+    }
+    .u{ 
+        position: absolute;
+        top: -2%;
+        left: 82%;
+        height: 9px;
+        width: 8%;
+        z-index: 2000;
+        background-color: rgba(180, 226, 222, 0);
+    }
+    .u:hover{
+        background-color: rgba(253, 219, 106, 0.658);
+        cursor: pointer;
+    }
+    
     .logo{
         position: absolute;
         top: -3%;
@@ -74,13 +153,30 @@
         background-color: rgba(112, 128, 144, 0);
     }
     .bola{
-        font-size: 12px;
-        background-color: rgb(216, 174, 170);
-        color:rgb(175, 179, 184);
+        font-size: 18px;
+        background-color: rgb(236, 205, 202);
+        color:rgb(255, 255, 255);
+        font-weight: 500;
         position: absolute;
-        border-radius: 0px;
-        top: 0%;
-        left: 0%;
+        border-radius: 50%;
+        top: 49%;
+        left: 5%;
+        padding: 0.8%;
+        width: 18px;
+        text-align: center;
+    }
+    .bolaa{
+        font-size: 18px;
+        background-color: rgb(236, 205, 202);
+        color:rgb(255, 255, 255);
+        font-weight: 500;
+        position: absolute;
+        border-radius: 50%;
+        top: 50%;
+        left: 93%;
+        padding: 0.8%;
+        width: 18px;
+        text-align: center;
     }
     .qdor{
         font-size: 16px;
@@ -92,6 +188,7 @@
         left: 96.5%;
         background-color: red;
         color: white;
+        z-index: 2000;
     }
     .qdob{
         font-size: 16px;
@@ -103,19 +200,20 @@
         left: 96.5%;
         background-color: rgb(250, 250, 250);
         color: red;
+        z-index: 2000;
     }
  
     .dance{
         position: absolute;
-        top: 24%;
-        left:56%;
+        top: 18%;
+        left:53%;
         width: 42%;
         height: 79%;
     }
     .h{
         position: absolute;
         top: 40%;
-        left:54%;
+        left:51%;
         width: 3%;
         height: 9%;
 
@@ -124,28 +222,28 @@
     .i{
         position: absolute;
         top: 90%;
-        left: 59%;
+        left: 57%;
         width: 3%;
         height: 9%;
     }
     .j{
         position: absolute;
         top: 90%;
-        left: 91%;
+        left: 87%;
         width: 4%;
         height: 8%;
     }
     .k{
         position: absolute;
         top: 26%;
-        left: 94%;
+        left: 90%;
         width: 3%;
         height: 9%;
     }
     .l{
         position: absolute;
         top: 90%;
-        left: 55%;
+        left: 53%;
         width: 3%;
         height: 6%;
     }
@@ -235,8 +333,7 @@
         width: 157%;
         height: 100vh;
         left: -29%;
-       
-     
+        z-index: 0;
     }
  
     h5{
@@ -276,21 +373,372 @@
         color:  rgb(161, 163, 167);
         text-align: center;
         font-weight: normal;
-
     }
-.cont{
-    font-family: 'Mulish', sans-serif;
-    font-weight: normal;
-    position: absolute;
-    margin-top: 37%;
-    left: 46%;
-    font-weight: 700;
-    font-size: 20px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: rgb(169, 221, 217) 2px solid;
-    background-color: rgb(169, 221, 217);
+    .cont{
+         font-family: 'Mulish', sans-serif;
+        font-weight: normal;
+        position: absolute;
+        margin-top: 37%;
+        left: 46%;
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border: rgb(169, 221, 217) 2px solid;
+        background-color: rgb(169, 221, 217);
 }
+.trio{
+    position: relative;
+}
+.banana{
+    position: absolute;
+    left: 9%;
+    padding-top: 58%;
+    width: 27%;
+    height: 1444%;
 
+}
+.predio{
+    position: absolute;
+    left: 37%;
+    padding-top: 58%;
+    width: 27%;
+    height: 1444%;
+
+}
+.mulher{
+    position: absolute;
+    left: 65%;
+    padding-top: 58%;
+    width: 27%;
+    height: 1444%;
+
+}
+.n1{
+    position: absolute;
+    background-color:rgb(169, 221, 217);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    left: 10%;
+    margin-top: 56%;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+}
+.n2{
+    position: absolute;
+    background-color:rgb(169, 221, 217);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    left: 38%;
+    margin-top: 56%;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+}
+.n3{
+    position: absolute;
+    background-color:rgb(169, 221, 217);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    left: 66%;
+    margin-top: 56%;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+}
+.m1{
+    position: absolute;
+    background-color: rgb(216, 174, 170);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 9px;
+    padding-bottom: 14px;
+    left: 10%;
+    margin-top: 58%;
+    font-size: 11.5px;
+    font-weight: 500;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%);
+}
+.m2{
+    position: absolute;
+    background-color: rgb(216, 174, 170);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 9px;
+    padding-bottom: 14px;
+    left: 38%;
+    margin-top: 58%;
+    font-size: 11.5px;
+    font-weight: 500;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%);
+}
+.m3{
+    position: absolute;
+    background-color: rgb(216, 174, 170);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 9px;
+    padding-bottom: 14px;
+    left: 66%;
+    margin-top: 58%;
+    font-size: 11.5px;
+    font-weight: 500;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%);
+}
+.t1{
+    display: flex;
+    flex-direction: row;
+}
+.b1{
+    position: absolute;
+    left: 10%;
+    margin-top: 79%;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+
+}
+.by1{
+    position: absolute;
+    left: 1%;
+    margin-top: 5%;
+    color: rgb(161, 163, 167);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Playfair Display',serif;
+    text-align: left;
+}
+.b2{
+    position: absolute;
+    left: 38%;
+    margin-top: 79%;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+
+}
+.by2{
+    position: absolute;
+    left: 1%;
+    margin-top: 5%;
+    color: rgb(161, 163, 167);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Playfair Display',serif;
+    text-align: left;
+}
+.b3{
+    position: absolute;
+    left: 66%;
+    margin-top: 79%;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+
+}
+.by3{
+    position: absolute;
+    left: 1%;
+    margin-top: 5%;
+    color: rgb(161, 163, 167);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Playfair Display',serif;
+    text-align: left;
+}
+.eee{ 
+    position: absolute;
+    top: 31%;
+    left: 1.5%;
+    height: 16px;
+    width: 98%;
+    z-index: 2000;
+    background-color: rgba(180, 226, 222, 0);
+}
+.eee:hover{
+    background-color: rgba(169, 221, 217, 0.658);
+    cursor: pointer;
+}
+.fff{ 
+    position: absolute;
+    top: 31%;
+    left: -0.5%;
+    height: 16px;
+    width: 76%;
+    z-index: 2000;
+    background-color: rgba(169, 221, 217, 0);
+}
+.fff:hover{
+    background-color:rgba(169, 221, 217, 0.658);
+    cursor: pointer;
+}
+.ggg{ 
+    position: absolute;
+    top: 79%;
+    left: 0.5%;
+    height: 16px;
+    width: 100%;
+    z-index: 2000;
+    background-color: rgba(169, 221, 217, 0);
+}
+.ggg:hover{
+    background-color: rgba(169, 221, 217, 0.658);
+    cursor: pointer;
+}
+.hhh{ 
+    position: absolute;
+    top: 31%;
+    left: 0.5%;
+    height: 16px;
+    width: 101%;
+    z-index: 2000;
+    background-color: rgba(169, 221, 217, 0);
+}
+.hhh:hover{
+    background-color: rgba(169, 221, 217, 0.658);
+    cursor: pointer;
+}
+.iii{ 
+    position: absolute;
+    top: 79%;
+    left: 0.5%;
+    height: 16px;
+    width: 91%;
+    z-index: 2000;
+    background-color: rgba(169, 221, 217, 0);
+}
+.iii:hover{
+    background-color: rgba(169, 221, 217, 0.658);
+    cursor: pointer;
+}
+.kkk{ 
+    position: absolute;
+    top: 79%;
+    left: 1.5%;
+    height: 16px;
+    width: 98%;
+    z-index: 2000;
+    background-color: rgba(169, 221, 217, 0);
+}
+.kkk:hover{
+    background-color: rgba(169, 221, 217, 0.658);
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    background-color:rgb(197, 226, 223);
+    margin-top: 95%;
+    padding-bottom: 5%;
+    padding-left: 128px;
+    z-index: 100;
+}
+.mare{
+    position: absolute;
+    top: 24%;
+    left: 9%;
+    width: 132px;
+    height: 32px;
+}
+.let{
+    font-family: 'Mulish', sans-serif;
+    position: absolute;
+    color: black;
+    padding-top: 120px;
+    left: 120px;
+}
+.fi2{
+    margin-top: 6%;
+    line-height: 38px;
+    z-index: 100;
+
+}
+.z,.y{
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-right: 31px;
+    margin-left: 1px;
+    z-index: 100;
+    
+}
+.y:hover{
+    color: rgb(255, 255, 255);
+}
+.aaa{ 
+    position: absolute;
+    top: 43%;
+    left: 26.5%;
+    height: 4%;
+    width: 13%;
+    z-index: 2000;
+    background-color: rgba(216, 174, 170, 0);
+}
+.aaa:hover{
+    background-color: rgba(216, 174, 170, 0.562);
+    cursor: pointer;
+}
+.bbb{ 
+    position: absolute;
+    top: 43%;
+    left: 53%;
+    height: 4%;
+    width: 14%;
+    z-index: 20000;
+    background-color: rgba(216, 174, 170, 0);
+}
+.bbb:hover{
+    background-color: rgba(216, 174, 170, 0.562);
+    cursor: pointer;
+}
+.ccc{ 
+    position: absolute;
+    top: 61%;
+    left: 26.5%;
+    height: 4%;
+    width: 9%;
+    z-index: 2000;
+    background-color: rgba(216, 174, 170, 0);
+}
+.ccc:hover{
+    background-color: rgba(216, 174, 170, 0.623);
+    cursor: pointer;
+}
+.jjj{
+    position: absolute;
+    top: 61%;
+    left: 53%;
+    height: 4%;
+    width: 13%;
+    z-index: 2000;
+    background-color: rgba(216, 174, 170, 0);
+
+}
+.jjj:hover{
+    background-color: rgba(216, 174, 170, 0.623);
+    cursor: pointer;
+    z-index: 2000;
+}
