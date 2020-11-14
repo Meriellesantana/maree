@@ -2,12 +2,13 @@
     font-family: 'Playfair Display',serif; */
     /* -webkit-clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%); 
     clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%); */
+    /* cursor:url(../img/mouse.gif),auto; */
     header{
         position: relative;
         width: 100%;
  
     }
-    .b,.c,.d,.e,.f,.g{
+    .b,.c,.d,.e,.f,.g, .g1{
         position: absolute;
         font-size: 12px;
         text-transform: uppercase;
@@ -34,6 +35,11 @@
     }
     .g{
         left: 82%;
+    }
+    .g1{
+        top: -4%;
+        left: 95%;
+        font-size: 29px;
     }
     .p{ 
         position: absolute;
