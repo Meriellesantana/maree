@@ -3,397 +3,405 @@
     /* -webkit-clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%); 
     clip-path: polygon(0 0,100% 0,100% 100%,50% 70%,0 100%); */
     /* cursor:url(../img/mouse.gif),auto; */
-    header{
-        position: relative;
-        width: 100%;
+*{
+    cursor: url('../img/mouse.gif'),pointer;
+}
+header{
+    position: relative;
+    width: 100%;
  
-    }
-    .b,.c,.d,.e,.f,.g, .g1{
-        position: absolute;
-        font-size: 12px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        letter-spacing: 5px;
-        top: -3%;
-    }
-    .b{
-        left: 42%;
-    }
-    .c{
-        left: 48%;
-    }
-    .d{
-        left: 55%;
-    }
-    .e{
-        left: 67%;
-    }
-    .f{
-        left: 74%;
-    }
-    .g{
-        left: 82%;
-    }
-    .g1{
-        top: -4%;
-        left: 95%;
-        font-size: 29px;
-    }
-    .p{ 
-        position: absolute;
-        top: -2%;
-        left: 41.5%;
-        height: 9px;
-        width: 4.5%;
-        z-index: 2000;
-        background-color: rgba(180, 226, 222, 0);
-    }
-    .p:hover{
-        background-color: rgba(169, 221, 217, 0.658);
-        cursor: pointer;
-    }
-    .q{ 
-        position: absolute;
-        top: -2%;
-        left: 48%;
-        height: 9px;
-        width: 4.5%;
-        z-index: 2000;
-        background-color: rgba(180, 226, 222, 0);
-    }
-    .q:hover{
-        background-color: rgba(189, 197, 196, 0.658);
-        cursor: pointer;
-    }
-    .r{ 
-        position: absolute;
-        top: -2%;
-        left: 55%;
-        height: 9px;
-        width: 9%;
-        z-index: 2000;
-        background-color: rgba(180, 226, 222, 0);
-    }
-    .r:hover{
-        background-color: rgba(189, 209, 180, 0.658);
-        cursor: pointer;
-    }
-    .s{ 
-        position: absolute;
-        top: -2%;
-        left: 67%;
-        height: 9px;
-        width: 4%;
-        z-index: 2000;
-        background-color: rgba(180, 226, 222, 0);
-    }
-    .s:hover{
-        background-color:rgba(237, 199, 252, 0.658);
-        cursor: pointer;
-    }
-    .t{ 
-        position: absolute;
-        top: -2%;
-        left: 74%;
-        height: 9px;
-        width: 3.5%;
-        z-index: 2000;
-        background-color: rgba(226, 219, 180, 0);
-    }
-    .t:hover{
-        background-color: rgba(241, 252, 141, 0.658);
-        cursor: pointer;
-    }
-    .u{ 
-        position: absolute;
-        top: -2%;
-        left: 82%;
-        height: 9px;
-        width: 8%;
-        z-index: 2000;
-        background-color: rgba(180, 226, 222, 0);
-    }
-    .u:hover{
-        background-color: rgba(253, 219, 106, 0.658);
-        cursor: pointer;
-    }
+}
+.b,.c,.d,.e,.f,.g, .g1{
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    top: -3%;
+}
+.b{
+    left: 42%;
+}
+.c{
+    left: 48%;
+}
+.d{
+    left: 55%;
+}
+.e{
+    left: 67%;
+}
+.f{
+    left: 74%;
+}
+.g{
+    left: 82%;
+}
+.g1{
+    top: -4%;
+    left: 95%;
+    font-size: 29px;
+}
+.p{ 
+    position: absolute;
+    top: -2%;
+    left: 41.5%;
+    height: 9px;
+    width: 4.5%;
+    z-index: 2000;
+    background-color: rgba(180, 226, 222, 0);
+}
+.p:hover{
+    background-color: rgba(169, 221, 217, 0.658);
+    cursor: url('../img/mouse2.gif'),pointer;
+}
+.q{ 
+    position: absolute;
+    top: -2%;
+    left: 48%;
+    height: 9px;
+    width: 4.5%;
+    z-index: 2000;
+    background-color: rgba(180, 226, 222, 0);
+}
+.q:hover{
+    background-color: rgba(189, 197, 196, 0.658);
+    cursor: url('../img/mouse2.gif'),pointer;
+}
+.r{ 
+    position: absolute;
+    top: -2%;
+    left: 55%;
+    height: 9px;
+    width: 9%;
+    z-index: 2000;
+    background-color: rgba(180, 226, 222, 0);
+}
+.r:hover{
+    background-color: rgba(189, 209, 180, 0.658);
+    cursor: url('../img/mouse2.gif'),pointer;
+}
+.s{ 
+    position: absolute;
+    top: -2%;
+    left: 67%;
+    height: 9px;
+    width: 4%;
+    z-index: 2000;
+    background-color: rgba(180, 226, 222, 0);
+}
+.s:hover{
+    background-color:rgba(237, 199, 252, 0.658);
+   cursor: url('../img/mouse2.gif'),pointer;
+}
+.t{ 
+    position: absolute;
+    top: -2%;
+    left: 74%;
+    height: 9px;
+    width: 3.5%;
+    z-index: 2000;
+    background-color: rgba(226, 219, 180, 0);
+}
+.t:hover{
+    background-color: rgba(241, 252, 141, 0.658);
+    cursor: url('../img/mouse2.gif'),pointer;
+}
+.u{ 
+    position: absolute;
+    top: -2%;
+    left: 82%;
+    height: 9px;
+    width: 8%;
+    z-index: 2000;
+    background-color: rgba(180, 226, 222, 0);
+}
+.u:hover{
+    background-color: rgba(253, 219, 106, 0.658);
+    cursor: url('../img/mouse2.gif'),pointer;
+}
     
-    .logo{
-        position: absolute;
-        top: -3%;
-        left: 2%;
+.logo{
+    position: absolute;
+   top: -3%;
+    left: 2%;
+}
+h1{
+    font-weight: 300;
+    font-size: 74px;
+    padding-top: 10%;
+    padding-left: 9%;
+}
+.joy{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 74px;
+    padding-left: 3%;
+}
+h2{
+    
+    font-weight: 300;
+    margin-top: 1%;
+    margin-left: 9%;
+    line-height: 31px;
+    color: rgb(175, 179, 184);
+    z-index: 200;
     }
-    h1{
-        font-weight: 300;
-        font-size: 74px;
-        padding-top: 10%;
-        padding-left: 9%;
-    }
-    .joy{
-        font-family: 'Playfair Display';
-        font-weight: 700;
-        font-size: 74px;
-        padding-left: 3%;
-    }
-    h2{
-        
-       font-weight: 300;
-       margin-top: 1%;
-       margin-left: 9%;
-       line-height: 31px;
-       color: rgb(175, 179, 184);
-       z-index: 200;
-       }
-   
-    .a{
-        margin-top: 4%;
-        font-weight: 700;
-        font-size: 16px;
-        padding-top: 1.5%;
-        padding-bottom: 1.50%;
-        padding-left: 3%;
-        padding-right: 3%;
-        border: rgb(216, 174, 170) 2px solid;
-        background-color: rgba(112, 128, 144, 0);
-    }
-    .bola{
-        font-size: 18px;
-        background-color: rgb(236, 205, 202);
-        color:rgb(255, 255, 255);
-        font-weight: 500;
-        position: absolute;
-        border-radius: 50%;
-        top: 49%;
-        left: 5%;
-        padding: 0.8%;
-        width: 18px;
-        text-align: center;
-    }
-    .bolaa{
-        font-size: 18px;
-        background-color: rgb(236, 205, 202);
-        color:rgb(255, 255, 255);
-        font-weight: 500;
-        position: absolute;
-        border-radius: 50%;
-        top: 50%;
-        left: 93%;
-        padding: 0.8%;
-        width: 18px;
-        text-align: center;
-    }
-    .qdor{
-        font-size: 16px;
-        position: fixed;
-        border-radius: 2px;
-        padding: 1%;
-        text-align: center;
-        top: 15.5%;
-        left: 96.5%;
-        background-color: red;
-        color: white;
-        z-index: 2000;
-    }
-    .qdob{
-        font-size: 16px;
-        position: fixed;
-        border-radius: 2px;
-        padding: 1%;
-        text-align: center;
-        top: 23.5%;
-        left: 96.5%;
-        background-color: rgb(250, 250, 250);
-        color: red;
-        z-index: 2000;
-    }
+.a{
+    margin-top: 4%;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 1.5%;
+    padding-bottom: 1.50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: rgb(216, 174, 170) 2px solid;
+    background-color: rgba(112, 128, 144, 0);
+}
+.a:hover{
+    cursor: url('../img/mouse2.gif'),pointer;
+    border: rgb(216, 174, 170) 2px solid;
+    background-color: rgb(216, 174, 170);
+    color: rgb(255, 255, 255);
+}
+.bola{
+    font-size: 18px;
+    background-color: rgb(236, 205, 202);
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    position: absolute;
+    border-radius: 50%;
+    top: 49%;
+    left: 5%;
+    padding: 0.8%;
+    width: 18px;
+    text-align: center;
+}
+.bolaa{
+    font-size: 18px;
+    background-color: rgb(236, 205, 202);
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 93%;
+    padding: 0.8%;
+    width: 18px;
+    text-align: center;
+}
+.qdor{
+    font-size: 16px;
+    position: fixed;
+    border-radius: 2px;
+    padding: 1%;
+    text-align: center;
+    top: 15.5%;
+    left: 96.5%;
+    background-color: red;
+    color: white;
+    z-index: 2000;
+}
+.qdob{
+    font-size: 16px;
+    position: fixed;
+    border-radius: 2px;
+    padding: 1%;
+    text-align: center;
+    top: 23.5%;
+    left: 96.5%;
+    background-color: rgb(250, 250, 250);
+    color: red;
+    z-index: 2000;
+}
  
-    .dance{
-        position: absolute;
-        top: 18%;
-        left:53%;
-        width: 42%;
-        height: 79%;
-    }
-    .h{
-        position: absolute;
-        top: 40%;
-        left:51%;
-        width: 3%;
-        height: 9%;
+.dance{
+    position: absolute;
+    top: 18%;
+    left:53%;
+    width: 42%;
+    height: 79%;
+}
+.h{
+    position: absolute;
+    top: 40%;
+    left:51%;
+    width: 3%;
+    height: 9%;
 
-
-    }
-    .i{
-        position: absolute;
-        top: 90%;
-        left: 57%;
-        width: 3%;
-        height: 9%;
-    }
-    .j{
-        position: absolute;
-        top: 90%;
-        left: 87%;
-        width: 4%;
-        height: 8%;
-    }
-    .k{
-        position: absolute;
-        top: 26%;
-        left: 90%;
-        width: 3%;
-        height: 9%;
-    }
-    .l{
-        position: absolute;
-        top: 90%;
-        left: 53%;
-        width: 3%;
-        height: 6%;
-    }
-    .um{
-        margin-top: 9%;
-    }
-    .fe,.booka,.book,.cel,.fone,.bike{
-        width: 33.1%;
-        height: 25%;
-    }
-    .wor{
-        font-family: 'Mulish', sans-serif;
-        font-size: 55px;
-        margin-top: 9%;
-        text-align: center;
+}
+.i{
+    position: absolute;
+    top: 90%;
+    left: 57%;
+    width: 3%;
+    height: 9%;
+}
+.j{
+    position: absolute;
+    top: 90%;
+    left: 87%;
+    width: 4%;
+    height: 8%;
+}
+.k{
+    position: absolute;
+    top: 26%;
+    left: 90%;
+    width: 3%;
+    height: 9%;
+}
+.l{
+    position: absolute;
+    top: 90%;
+    left: 53%;
+    width: 3%;
+    height: 6%;
+}
+.um{
+    margin-top: 9%;
+}
+.fe,.booka,.book,.cel,.fone,.bike{
+    width: 33.1%;
+    height: 25%;
+}
+.wor{
+    font-family: 'Mulish', sans-serif;
+    font-size: 55px;
+    margin-top: 9%;
+    text-align: center;
      
-    }
-    .pro{
-        font-family: 'Playfair Display';
-        font-size: 55px;
-        font-weight: 900;
+}
+.pro{
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    font-weight: 900;
 
-    }
-    .luz,.fala,.nuvem,.lapis{
-        font-size: 51px;
-        border-radius: 50%;
-        height: 50px;
-        background-color: rgb(247, 229, 226);
-        padding: 53px;
-        margin-left: 7%;
-    }
-    .circle{
-        margin-top: 13%;
-    }
-    .luz{
-        padding-left: 67px;
-        padding-right: 68px;
-        margin-left: 16%;
-    }
-    .luz{
-        color: rgb(171, 209, 204);
-    }
-    .fala{
-        color: rgb(250, 215, 15);
-    }
-    .nuvem{
-        color: rgb(58, 26, 26);
-
-    }
-    .lapis{
-        color: rgb(228, 100, 41);
-    }
-    .tex{
-        display: flex;
-        flex-direction: row;
-    }
-    .luzz,.falaa,.nuvemm,.lapiss{
-        margin-top: 7%;
-        margin-left: 4%;
-        text-align: center;
-
-    }
-    .luzz{
-        margin-left: 14%;
-
-    }
-    h3{
-       font-family: 'Mulish', sans-serif;
-       font-size: 22px;
-       font-weight: 400;
-    }
-    h4{
-        margin-top: -9%;
-       font-family: 'Mulish', sans-serif;
-       font-size: 16px;
-       font-weight: 300;
-       color: rgb(161, 163, 167);
-       line-height: 24px;
-    }
-    .funds{
-        position: relative;
-    }
-    .fun{
-        position: absolute;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 157%;
-        height: 100vh;
-        left: -29%;
-        z-index: 0;
-    }
- 
-    h5{
-        position: absolute;
-       padding-top: 8%;
-        padding-left:  15%;
-        font-family: 'Mulish', sans-serif;
-        font-size: 58px;
-        font-weight: normal;
-
-    }
-    .ital{
-        position: absolute;
-        top: 60%;
-        left:  101%;
-        font-size: 58px;
-        font-family: 'Playfair Display';
-        text-align: center;
-        font-weight: 500;
-    }
-    .itali{
-
-        position: absolute;
-        top: 103%;
-        left:  53%;
-        font-size: 58px;
-        font-family: 'Playfair Display';
-        text-align: center;
-        font-weight: 500;
-    }
-    .meio{
-        position: absolute;
-        padding-top: 30%;
-        padding-left:  6%;
-        font-family: 'Mulish', sans-serif;
-        font-size: 19px;
-        color:  rgb(161, 163, 167);
-        text-align: center;
-        font-weight: normal;
-    }
-    .cont{
-         font-family: 'Mulish', sans-serif;
-        font-weight: normal;
-        position: absolute;
-        margin-top: 37%;
-        left: 46%;
-        font-weight: 700;
-        font-size: 20px;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        padding-left: 5%;
-        padding-right: 5%;
-        border: rgb(169, 221, 217) 2px solid;
-        background-color: rgb(169, 221, 217);
+}
+.luz,.fala,.nuvem,.lapis{
+    font-size: 51px;
+    border-radius: 50%;
+    height: 50px;
+    background-color: rgb(247, 229, 226);
+    padding: 53px;
+    margin-left: 7%;
+}
+.circle{
+    margin-top: 13%;
+}
+.luz{
+    padding-left: 67px;
+    padding-right: 68px;
+    margin-left: 16%;
+}
+.luz{
+    color: rgb(171, 209, 204);
+}
+.fala{
+    color: rgb(250, 215, 15);
+}
+.nuvem{
+    color: rgb(58, 26, 26);
+}
+.lapis{
+    color: rgb(228, 100, 41);
+}
+.tex{
+    display: flex;
+    flex-direction: row;
+}
+.luzz,.falaa,.nuvemm,.lapiss{
+    margin-top: 7%;
+    margin-left: 4%;
+    text-align: center;
+}
+.luzz{
+    margin-left: 14%;
+}
+h3{
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+h4{
+    margin-top: -9%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(161, 163, 167);
+    line-height: 24px;
+}
+.funds{
+    margin-top: 10%;
+    position: relative;
+    background-image: url('../img/h-2-background-1.jpg');
+    background-size: cover;
+    background-position: 25% 10%;
+    background-repeat: no-repeat;
+    width: 129%;
+    height: 104vh;
+    left: -29%;
+    z-index: 0;
+}
+ h5{
+    position: absolute;
+    padding-top: 3%;
+    padding-left:  36%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 58px;
+    font-weight: normal;
+}
+.ital{
+    position: absolute;
+    top: 42%;
+    left:  101%;
+    font-size: 58px;
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-weight: 500;
+}
+.itali{
+    position: absolute;
+    top: 103%;
+    left:  65%;
+    font-size: 58px;
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-weight: 500;
+}
+.meio{
+    position: absolute;
+    padding-top: 20%;
+    padding-left:  27%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 19px;
+    color:  rgb(161, 163, 167);
+    text-align: center;
+    font-weight: normal;
+}
+.cont{
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    margin-top: 28%;
+    left: 54%;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: rgb(169, 221, 217) 2px solid;
+    background-color: rgb(169, 221, 217);
+    z-index: 3000;
+}
+.cont:hover{
+    cursor: url('../img/mouse2.gif'),pointer;
+    border: rgb(216, 174, 170) 2px solid;
+    background-color: rgb(216, 174, 170);
+    color: rgb(255, 255, 255);
 }
 .trio{
     position: relative;
@@ -401,7 +409,7 @@
 .banana{
     position: absolute;
     left: 9%;
-    padding-top: 58%;
+    padding-top: 17%;
     width: 27%;
     height: 1444%;
 
@@ -409,7 +417,7 @@
 .predio{
     position: absolute;
     left: 37%;
-    padding-top: 58%;
+    padding-top: 17%;
     width: 27%;
     height: 1444%;
 
@@ -417,7 +425,7 @@
 .mulher{
     position: absolute;
     left: 65%;
-    padding-top: 58%;
+    padding-top: 17%;
     width: 27%;
     height: 1444%;
 
@@ -430,7 +438,7 @@
     padding-top: 1px;
     padding-bottom: 5px;
     left: 10%;
-    margin-top: 56%;
+    margin-top: 16%;
     font-size: 38px;
     font-weight: 700;
     font-family: 'Playfair Display',serif;
@@ -444,7 +452,7 @@
     padding-top: 1px;
     padding-bottom: 5px;
     left: 38%;
-    margin-top: 56%;
+    margin-top: 16%;
     font-size: 38px;
     font-weight: 700;
     font-family: 'Playfair Display',serif;
@@ -458,7 +466,7 @@
     padding-top: 1px;
     padding-bottom: 5px;
     left: 66%;
-    margin-top: 56%;
+    margin-top: 16%;
     font-size: 38px;
     font-weight: 700;
     font-family: 'Playfair Display',serif;
@@ -472,7 +480,7 @@
     padding-top: 9px;
     padding-bottom: 14px;
     left: 10%;
-    margin-top: 58%;
+    margin-top: 18%;
     font-size: 11.5px;
     font-weight: 500;
     font-family: 'Playfair Display',serif;
@@ -487,7 +495,7 @@
     padding-top: 9px;
     padding-bottom: 14px;
     left: 38%;
-    margin-top: 58%;
+    margin-top: 18%;
     font-size: 11.5px;
     font-weight: 500;
     font-family: 'Playfair Display',serif;
@@ -502,7 +510,7 @@
     padding-top: 9px;
     padding-bottom: 14px;
     left: 66%;
-    margin-top: 58%;
+    margin-top: 18%;
     font-size: 11.5px;
     font-weight: 500;
     font-family: 'Playfair Display',serif;
@@ -516,7 +524,7 @@
 .b1{
     position: absolute;
     left: 10%;
-    margin-top: 79%;
+    margin-top: 39%;
     font-size: 26px;
     font-weight: 500;
     font-family: 'Mulish', sans-serif;
@@ -536,7 +544,7 @@
 .b2{
     position: absolute;
     left: 38%;
-    margin-top: 79%;
+    margin-top: 39%;
     font-size: 26px;
     font-weight: 500;
     font-family: 'Mulish', sans-serif;
@@ -556,7 +564,7 @@
 .b3{
     position: absolute;
     left: 66%;
-    margin-top: 79%;
+    margin-top: 39%;
     font-size: 26px;
     font-weight: 500;
     font-family: 'Mulish', sans-serif;
@@ -584,7 +592,7 @@
 }
 .eee:hover{
     background-color: rgba(169, 221, 217, 0.658);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .fff{ 
     position: absolute;
@@ -597,7 +605,7 @@
 }
 .fff:hover{
     background-color:rgba(169, 221, 217, 0.658);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .ggg{ 
     position: absolute;
@@ -610,7 +618,7 @@
 }
 .ggg:hover{
     background-color: rgba(169, 221, 217, 0.658);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .hhh{ 
     position: absolute;
@@ -623,7 +631,7 @@
 }
 .hhh:hover{
     background-color: rgba(169, 221, 217, 0.658);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .iii{ 
     position: absolute;
@@ -636,7 +644,7 @@
 }
 .iii:hover{
     background-color: rgba(169, 221, 217, 0.658);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .kkk{ 
     position: absolute;
@@ -649,7 +657,7 @@
 }
 .kkk:hover{
     background-color: rgba(169, 221, 217, 0.658);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 footer{
     display: flex;
@@ -657,7 +665,7 @@ footer{
     justify-content: space-around;
     position: relative;
     background-color:rgb(197, 226, 223);
-    margin-top: 95%;
+    margin-top: 55%;
     padding-bottom: 5%;
     padding-left: 128px;
     z-index: 100;
@@ -688,11 +696,13 @@ footer{
     color: black;
     padding-right: 31px;
     margin-left: 1px;
-    z-index: 100;
+    z-index: 3000;
     
 }
 .y:hover{
     color: rgb(255, 255, 255);
+    cursor: url('../img/mouse2.gif'),pointer;
+    z-index: 2000;
 }
 .aaa{ 
     position: absolute;
@@ -705,7 +715,7 @@ footer{
 }
 .aaa:hover{
     background-color: rgba(216, 174, 170, 0.562);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .bbb{ 
     position: absolute;
@@ -718,7 +728,7 @@ footer{
 }
 .bbb:hover{
     background-color: rgba(216, 174, 170, 0.562);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .ccc{ 
     position: absolute;
@@ -731,7 +741,7 @@ footer{
 }
 .ccc:hover{
     background-color: rgba(216, 174, 170, 0.623);
-    cursor: pointer;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
 .jjj{
     position: absolute;
@@ -739,12 +749,12 @@ footer{
     left: 53%;
     height: 4%;
     width: 13%;
-    z-index: 2000;
+    z-index: 4000;
     background-color: rgba(216, 174, 170, 0);
+    
 
 }
 .jjj:hover{
     background-color: rgba(216, 174, 170, 0.623);
-    cursor: pointer;
-    z-index: 2000;
+    cursor: url('../img/mouse2.gif'),pointer;
 }
