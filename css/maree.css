@@ -434,14 +434,23 @@ h2{
     font-size: 51px;
     border-radius: 50%;
     height: 50px;
-    background-color: rgb(247, 229, 226);
+    background-color: #f7e5e2;
     padding: 53px;
     margin-left: 7%;
+    z-index: 2000;
 }
 .circle{
     margin-top: 13%;
+    position: relative;
 }
-
+svg{
+    position: absolute;
+    top: -90%;
+    left: 16%;
+    width:946px;
+    height:86px;
+    z-index: 100;
+}
 .luz{
     padding-left: 67px;
     padding-right: 68px;
@@ -449,6 +458,7 @@ h2{
 }
 .luz{
     color: rgb(171, 209, 204);
+  
 }
 .fala{
     color: rgb(250, 215, 15);
