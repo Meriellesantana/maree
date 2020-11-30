@@ -262,11 +262,161 @@ h2{
 }
 .um{
     margin-top: 9%;
+    position: relative;
 }
+.fotos{
+    background-color: rgba(126, 252, 0, 0);
+}
+
+.ilust{
+    position: absolute;
+    width: 33%;
+    height: 75%;
+    background-color: #21452400;
+    z-index: 5000;
+
+
+}
+.ilust2{
+    position: absolute;
+    left: 34%;
+    width: 32%;
+    height: 75%;
+    background-color: #21452400;
+    z-index: 5000;
+
+
+}
+.ilust3{
+    position: absolute;
+    left: 67%;
+    width: 32%;
+    height: 75%;
+    background-color: #21452400;
+    z-index: 5000;
+
+
+}
+.ilust4{
+    position: absolute;
+    top: 188%;
+    width: 33%;
+    height: 75%;
+    background-color: #ff000000;
+    z-index: 5000;
+
+
+}
+.ilust5{
+    position: absolute;
+    top: 188%;
+    left: 34%;
+    width: 32%;
+    height: 75%;
+    background-color: #f30a0a00;
+    z-index: 5000;
+
+
+}
+.ilust6{
+    position: absolute;
+    top: 188%;
+    left: 67%;
+    width: 32%;
+    height: 75%;
+    background-color: #f8040400;
+    z-index: 5000;
+
+
+}
+.ilus{
+    position: absolute;
+    top: 42%;
+    width: 68%;
+    height: 21%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.ilus2{
+    position: absolute;
+    left: -2%;
+    top: 42%;
+    width: 68%;
+    height: 21%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 5000;
+
+}
+.ilus3{
+    position: absolute;
+    left: -0.3%;
+    top: 42%;
+    width: 68%;
+    height: 21%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.ilus4{
+    position: absolute;
+    left: -2%;
+    top: 42%;
+    width: 68%;
+    height: 21%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.ilus5{
+    position: absolute;
+    left: -2%;
+    top: 42%;
+    width: 68%;
+    height: 21%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.ilus6{
+    position: absolute;
+    left: -0.5%;
+    top: 42%;
+    width: 68%;
+    height: 21%;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.ilust:hover .ilus,.ilust2:hover .ilus2,.ilust3:hover .ilus3,.ilust4:hover .ilus4,.ilust5:hover .ilus5,.ilust6:hover .ilus6{
+    background-color: white;
+    color: black;
+    cursor: url("../img/mouse2.gif"),pointer;
+}
+.ilust:hover ,.ilust2:hover,.ilust3:hover,.ilust4:hover,.ilust5:hover,.ilust6:hover{
+    cursor: url("../img/mouse2.gif"),pointer;
+}    
+.all{
+    font-size: 23px;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+.all2{
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 12%;
+ }
+ .all:hover,.all2:hover{
+    cursor: url("../img/mouse2.gif"),pointer;
+ }
+
 .fe,.booka,.book,.cel,.fone,.bike{
     width: 33.1%;
     height: 25%;
 }
+
+
 .wor{
     font-family: 'Mulish', sans-serif;
     font-size: 55px;
@@ -291,6 +441,7 @@ h2{
 .circle{
     margin-top: 13%;
 }
+
 .luz{
     padding-left: 67px;
     padding-right: 68px;
